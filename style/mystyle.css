@@ -1,0 +1,98 @@
+body{
+margin-top: 0px;
+padding-top: 0px;}
+
+#content{
+margin: auto;
+background: #fff;
+/*width: 900px;*/
+max-width: 70%;
+height: 600px;
+background: #f1f1f1;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+}
+#header {
+width: inherit;
+height: 96px;
+background: #292F33;
+/*border-bottom: solid 3px blue;*/
+margin-top: 10px;
+}
+#header h2{
+margin: 0px;
+padding-top: 5px;
+margin-left: 50px;
+color: beige;
+}
+#header  img {float:left; height: 90px; width: 150px;}
+#left_column {
+clear: all;
+float: left;
+width: 200px;
+height: 501px;
+background: #292F33;
+/*border-right:solid 2px blue;*/
+}
+
+#main {
+clear: all;
+width: inherit;
+height: 470px;
+background: #fff;
+}
+
+/*Vertical Menu*/
+#button {
+width: 12.5em;
+
+padding: 0 0 1em 0;
+margin-top: 0.2em;
+margin-bottom: 1em;
+font-family: 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, Sans-serif;
+/*background: #00CED1;*/
+color: #333;
+}
+#button ul{
+list-style: none;
+margin: 0; 
+padding: 0;
+border: none;
+}
+#button li{
+border-bottom: 	2px solid #fff;
+margin: 0;
+list-style: none;
+list-style-image: none;
+}
+#button li a{
+display: block;
+padding: 15px 15px 15px 0.5em;
+border-left: 5px solid #292F33;
+border-right: 5px solid #292F33Z`;
+background-color: rgba(0, 0, 0, 0.5);
+color: #fff;
+text-decoration: none;
+width: 100%;
+}
+html>body #button li a{
+width: auto;
+}
+#button li a:hover {
+border-left: 10px solid #1c64d1;
+border-left: 10px solid #56a3e0;
+background-color: #2586d7;
+color: #fff;
+}
+
+#footer{
+width: inherit;
+height: 55px;
+background: #292f33;
+clear: all;
+/*border-top: solid 2px beige;*/
+color: beige;
+padding-top: 10px;
+font-family: lucida console;
+}
+

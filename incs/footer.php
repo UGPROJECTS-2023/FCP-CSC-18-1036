@@ -1,0 +1,1 @@
+<div id="footer" align="Center"> FUD Pharmacy &copy; <?php echo date("Y") ?>. Copyright	</div>
